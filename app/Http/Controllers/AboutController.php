@@ -4,24 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class InventionsController extends Controller
+class AboutController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
 
-    // public function invention()
-    // {
-
-    // }
     public function index()
     {
-        return view('invention');
+        return view('about');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
         //
