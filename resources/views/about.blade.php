@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('page-content')
-<div class="bg-black text-white p-4 pt-16 flex items-left justify-left">
+<div class="bg-white text-black p-4 pt-16 flex items-left justify-left">
     <div class="flex flex-col items-left">
         <div class="container mx-auto p-8">
             <h1 class="text-5xl font-bold mb-4">About Nikola Tesla</h1>

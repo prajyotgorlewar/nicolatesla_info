@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('page-content')
-<div class="bg-black text-white p-4 pt-16 flex items-left justify-left" style="margin-top: 30px;">
+
+<div class="text-black bg-white p-4 pt-16 flex items-left justify-left" style="margin-top: 30px; ">
     <div class="flex flex-col items-left">
         <h1 class="text-4xl font-bold mb-8 ">History of Nikola Tesla</h1>
 
@@ -9,7 +10,7 @@
             Nikola Tesla, born on July 10, 1856, in the village of Smiljan (modern-day Croatia), was a Serbian-American inventor, electrical engineer, and futurist. His contributions to the development of modern electrical systems and technology have left an indelible mark on the world.
         </p>
         <div class="flex">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tesla_1879_teslauniverse.jpg/330px-Tesla_1879_teslauniverse.jpg" alt="Logo" class="w-full md:w-80 lg:w-96 object-cover rounded-xl border-4 border-white">
+            <img src="https://www.researchgate.net/publication/327143931/figure/fig1/AS:834608723673097@1575997634711/Nikola-Tesla-as-a-young-man.ppm" alt="Logo" class="w-full md:w-50 lg:w-96 object-cover rounded-xl border-4 border-black">
             <p class="ml-4 flex-grow">
                 Tesla's early life saw his fascination with mechanics and engineering. After studying at the Technical University of Graz and the University of
                 Prague, he worked in telephony and electrical engineering in Europe before moving to the United States in 1884. There, he collaborated briefly with
@@ -41,4 +42,5 @@
         </p>
     </div>
 </div>
+
 @endsection
